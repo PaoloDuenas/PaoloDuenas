@@ -7,8 +7,8 @@
 - Fun Fact: I love play videogames
 
 ## Now listening to:
-<a href="https://https://natemoo-re-paoloduenas.vercel.app/now-playing/now-playing?open">
-    <img src="https://https://natemoo-re-paoloduenas.vercel.app/now-playing/now-playing" width="256" height="64" alt="Now Playing">`
+<a href="https://https://natemoo-re-paoloduenas.vercel.app/now-playing?open">
+    <img src="https://https://natemoo-re-paoloduenas.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
 </a>
 
 ### Connect with me:
