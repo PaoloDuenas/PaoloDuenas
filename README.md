@@ -7,7 +7,9 @@
 - Fun Fact: I love play videogames
 
 ## Now listening to:
-[![Spotify](https://spotify-now-playing-paoloduenas.vercel.app/api/spotify)](https://open.spotify.com/user/21fp2lxln36ptw4exeldxusta)
+<a href="https://https://natemoo-re-paoloduenas.vercel.app/now-playing/now-playing?open">
+    <img src="https://https://natemoo-re-paoloduenas.vercel.app/now-playing/now-playing" width="256" height="64" alt="Now Playing">`
+</a>
 
 ### Connect with me:
 ![Twitter Follow](https://img.shields.io/badge/Twitter_@paoloduenas-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
