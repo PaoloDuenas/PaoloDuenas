@@ -6,10 +6,7 @@
 - 2022 Goals: Learn IA basics 🤖
 - Fun Fact: I love play videogames
 
-## Now listening to:
-<a href="https://https://natemoo-re-paoloduenas.vercel.app/now-playing?open">
-    <img src="https://https://natemoo-re-paoloduenas.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
-</a>
+
 
 ### Connect with me:
 ![Twitter Follow](https://img.shields.io/badge/Twitter_@paoloduenas-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
