@@ -1,7 +1,7 @@
 #### Hi there, I'm Paolo - AKA Paolin++🤙
 
 ## Informatics Engineering student and Jr. Developer
-- I'm currently working on a Android Project
+- I'm currently learning GoLang
 - Currently learning everything 😅
 - 2022 Goals: Learn IA basics 🤖
 - Fun Fact: I love play videogames
