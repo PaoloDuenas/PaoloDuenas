@@ -1,11 +1,15 @@
 #### Hi there, I'm Paolo - AKA Paolin++🤙
 
-## Informatics Engineering student and Jr. Developer
-- I'm currently learning GoLang
-- Currently learning everything 😅
-- 2022 Goals: Learn IA basics 🤖
-- Fun Fact: I love play videogames
+## Informatics Engineering student and Jr. Develope
+- Currently learning python.
+- Lover of new technologies.
 
+## Knowleges
+- C++.
+- C#.
+- PL/SQL and SQL.
+- basic Javascript and Kotlin.
+- just started with Python.
 
 
 ### Connect with me:
