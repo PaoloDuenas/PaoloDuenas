@@ -1,15 +1,15 @@
 #### Hi there, I'm Paolo - AKA Paolin++🤙
 
 ## Informatics Engineering student and Jr. Developer
-- Currently learning python.
+- Currently learning Python.
 - Lover of new technologies.
 
 ## Knowleges
 - C++.
 - C#.
 - PL/SQL and SQL.
-- basic Javascript and Kotlin.
-- just started with Python.
+- Basic Javascript and Kotlin.
+- Just started with Python.
 
 
 ### Connect with me:
