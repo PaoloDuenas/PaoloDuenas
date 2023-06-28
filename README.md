@@ -1,6 +1,6 @@
 #### Hi there, I'm Paolo - AKA Paolin++🤙
 
-## Informatics Engineering student and Jr. Develope
+## Informatics Engineering student and Jr. Developer
 - Currently learning python.
 - Lover of new technologies.
 
