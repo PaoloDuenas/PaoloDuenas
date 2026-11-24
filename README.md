@@ -1,12 +1,9 @@
 # Paolo Dueñas · Paolin++
 
-Desarrollo software para despachos contables en México. En Paccioli trabajo con el recorrido de una factura electrónica: recuperar el XML del SAT, identificar a qué contribuyente pertenece y hacer que un contador pueda encontrarla por RFC, nombre, folio o UUID.
+Trabajo en Paccioli, software para despachos contables en México. Mi trabajo abarca la integración con el SAT, la facturación electrónica y la operación del sistema en producción.
 
-Una búsqueda parece sencilla hasta que una persona administra varios RFC. La lista de facturas, el total que aparece en pantalla y el XML que se puede descargar tienen que respetar los mismos permisos. Otro problema que me toca resolver es qué pasa cuando una sincronización se interrumpe: al retomarla, una factura que ya llegó debe aparecer una sola vez.
+Cuando un despacho lleva la contabilidad de varios contribuyentes, cada consulta tiene que respetar quién puede ver cada RFC. En el buscador de facturas, por ejemplo, aplico los mismos filtros y permisos al listado, a la suma de importes y a la descarga del XML. Así, el total que revisa el contador corresponde a los comprobantes que tiene delante.
 
-## Código público
-
-- [Greenhome](https://github.com/PaoloDuenas/Backend-Greenhome) guarda lecturas de sensores por maceta. Cada registro asocia la humedad del suelo y la temperatura ambiente con la planta y el momento de la medición.
-- [Pruebas de compra con Cypress](https://github.com/PaoloDuenas/e2e-ecommerce-automation) recorre una compra en Sauce Demo, desde el inicio de sesión hasta el checkout. Los escenarios y sus datos de prueba se pueden leer por separado.
+También trabajo en la recuperación de CFDI. Si una descarga del SAT se interrumpe, el sistema tiene que poder retomarla, reconocer los comprobantes que ya recibió y mostrar cuáles siguen pendientes.
 
 [Instagram](https://instagram.com/paolo_duenas) · [Twitter](https://twitter.com/paoloduenas)
