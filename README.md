@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PaoloDuenas/PaoloDuenas/snake-output/snake-dark.svg">
-  <img alt="Purple snake eating the squares on my GitHub contribution calendar" src="https://raw.githubusercontent.com/PaoloDuenas/PaoloDuenas/snake-output/snake.svg">
+  <img alt="Purple snake visiting every day with work or personal commits" src="https://raw.githubusercontent.com/PaoloDuenas/PaoloDuenas/snake-output/snake.svg">
 </picture>
 
 #### Work and personal commits

@@ -1,20 +1,36 @@
 name: Contribution snake
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '27 8 * * *'
+  push:
+    branches: [main]
+    paths:
+      - work-personal-commits.svg
+      - .github/scripts/combined-snake.js
+      - .github/workflows/snake.yml
 permissions:
   contents: write
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
 jobs:
   animate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          github_user_name: PaoloDuenas
-          outputs: |
-            dist/snake.svg?color_snake=#9366da
-            dist/snake-dark.svg?palette=github-dark&color_snake=#b393f4
+          ref: main
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Platane/snk
+          ref: d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+          path: snk
+          persist-credentials: false
+      - name: Animate the combined daily counts
+        run: |
+          npx --yes esbuild@0.25.12 .github/scripts/combined-snake.js --bundle --platform=node --outfile="$RUNNER_TEMP/snake.cjs" \
+            --alias:@snk/types=./snk/packages/types --alias:@snk/solver=./snk/packages/solver --alias:@snk/svg-creator=./snk/packages/svg-creator
+          node "$RUNNER_TEMP/snake.cjs"
       - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
