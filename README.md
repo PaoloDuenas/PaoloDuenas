@@ -5,4 +5,8 @@
   <img alt="Purple snake eating the squares on my GitHub contribution calendar" src="https://raw.githubusercontent.com/PaoloDuenas/PaoloDuenas/snake-output/snake.svg">
 </picture>
 
+#### Work and personal commits
+
+![Daily commits by project: blue for work and purple for personal projects.](./work-personal-commits.svg)
+
 [Instagram](https://instagram.com/paolo_duenas) · [Twitter](https://twitter.com/paoloduenas)
